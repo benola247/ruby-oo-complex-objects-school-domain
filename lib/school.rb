@@ -1,4 +1,7 @@
+#Domain
+
 class School
+    
     attr_accessor :name, :roster
 
     def initialize(name)
@@ -22,6 +25,4 @@ class School
         end
         sorted
     end
-
-
 end
